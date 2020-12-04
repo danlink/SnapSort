@@ -11,7 +11,7 @@ def main():
     
     app.setQuitOnLastWindowClosed(False)
     w = QtWidgets.QWidget()
-    wait_window = TrayIcon(QtGui.QIcon("ressources/images/icon_systray.png"), w)
+    wait_window = TrayIcon(QtGui.QIcon("SnapSort/ressources/images/icon_systray.png"), w)
     wait_window.show()
     
     sys.exit(app.exec_())
