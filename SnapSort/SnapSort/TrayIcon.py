@@ -12,7 +12,7 @@ from PyQt5.QtCore import QObject
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
-from SnapSort.RenameDialog import RenameDialog
+from RenameDialog import RenameDialog
 from PyQt5.Qt import QSettings
 
 class TrayIcon(QtWidgets.QSystemTrayIcon):

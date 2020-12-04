@@ -7,8 +7,8 @@ import os
 from datetime import date
 from PyQt5 import QtWidgets, QtCore
 
-from SnapSort.gui.renameDialog_ui import Ui_Mainwin
-import SnapSort.ModifyDate
+from gui.renameDialog_ui import Ui_Mainwin
+import ModifyDate
 from PyQt5.Qt import QSettings
 
 class RenameDialog(QtWidgets.QMainWindow, Ui_Mainwin):
